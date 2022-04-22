@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="NodeDummy" id="1626667902" name="Nhu">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1413222195" name="Nhu">
+			<transform>1 -8.7422791e-08 -8.7422777e-08 0.0 -8.7422791e-08 -1.6292067e-07 -1 0.0 8.7422777e-08 1 -1.6292068e-07 0.0 -1.1501845e-06 -13.156577 1.841658 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1838273129" name="Head">
+			<mesh_name>guid://926d546f7a777702ad1cca7945627184118d4f13</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.50432813 0 0 0.0 0 0.50432813 0 0.0 0 0 0.50432813 0.0 2.2222806e-09 0.025419926 2.8180249 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1926115658" name="Nose">
+			<mesh_name>guid://26f88956a72c30bd178dbaf8295841f7f151b6ea</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.020262141 -0.034050327 -0.0084897 0.0 0.03509273 0.01966027 0.0049018571 0.0 -1.4282626e-09 -0.0098032244 0.03931858 0.0 2.9872631e-08 0.34170312 2.6800699 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="148612499" name="Ear">
+			<mesh_name>guid://e9507941fd2e01ac963b911bc4e913be07b0a805</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>3.139165e-07 8.7422748e-08 1 0.0 -4.693608e-08 1 -8.7422741e-08 0.0 -1 -4.6936051e-08 3.1391647e-07 0.0 -0.65367329 5.7145929e-08 2.8033681 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1588845112" name="Pant">
+			<mesh_name>guid://6bd679a00b68e07f869bf3d20502010963d396d4</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.02656245 1.7383774e-08 0 0.0 1.7383769e-08 0.22540963 0 0.0 0 0 0.11562632 0.0 0 0 1.1735902 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="64792285" name="Foot">
+			<mesh_name>guid://56fa14234292eb261e4c084de11f0d4856555007</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.071101673 8.8817842e-16 0 0.0 -8.8817842e-16 0.071101673 0 0.0 0 0 0.071101673 0.0 -0.15192112 5.1128509e-08 0.40806818 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="613727649" name="Shoe">
+			<mesh_name>guid://6d55cdba10ec81d10193d0fc9ed0f82bcc1faf8e</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.062016934 8.8817842e-16 0 0.0 -8.8817842e-16 0.062016934 0 0.0 0 0 0.062016934 0.0 -0.14971554 0.26299158 0.12741749 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1612448011" name="Empty">
+			<transform>-2.316068e-08 -0.14215925 0 0.0 0.14215925 -2.316068e-08 0 0.0 0 0 0.14215925 0.0 -0.20572624 0.20374812 3.3153634 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1615692834" name="Shirt">
+			<mesh_name>guid://5edb7195946215f0fe97b08fd872e4a2552f1b99</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.37091053 7.1054274e-15 0 0.0 -7.1054274e-15 0.37091053 0 0.0 0 0 0.37091053 0.0 0 0 1.6421578 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1784765352" name="Arm">
+			<mesh_name>guid://06c3502439cc5d33b2ed00f6d8e003dde1ee3398</mesh_name>
+			<surface name="surface_0" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>0.37091053 7.1054274e-15 0 0.0 -7.1054274e-15 0.37091053 0 0.0 0 0 0.37091053 0.0 0 0 1.3432182 1.0</transform>
+		</node>
+		<node type="LightProj" id="1630388663" name="Spot">
+			<penumbra>1</penumbra>
+			<attenuation_distance>10000</attenuation_distance>
+			<shape>2 1 0.200000003</shape>
+			<shape_type>0</shape_type>
+			<fov>45</fov>
+			<znear>10</znear>
+			<ies_relative_to_fov>0</ies_relative_to_fov>
+			<shadow_bias>1</shadow_bias>
+			<mode>0</mode>
+			<shadow_filter_mode>-1</shadow_filter_mode>
+			<shadow_filter>1</shadow_filter>
+			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+			<shadow_penumbra>0</shadow_penumbra>
+			<shadow_screen_space>0</shadow_screen_space>
+			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+			<shadow_color_texture_mode>1</shadow_color_texture_mode>
+			<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+			<lens_flare_enabled>0</lens_flare_enabled>
+			<lens_flare_texture>core/textures/lens_flares_default.dds</lens_flare_texture>
+			<lens_flare_intensity>1</lens_flare_intensity>
+			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+			<lens_flare_use_light_color>0</lens_flare_use_light_color>
+			<transform>0.97652376 -0.099871859 -0.19085829 0.0 -0.19871385 -0.75967872 -0.61919373 0.0 -0.083150961 0.64258367 -0.76169032 0.0 1.9886519 4.4559464 5.2109342 1.0</transform>
+		</node>
+	</node>
+</nodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>368e8081b781aac177fd07c2415b694b1f878911</guid>
+	<type>property</type>
+	<hash>738699a6</hash>
+	<runtimes>
+		<runtime id="368e8081b781aac177fd07c2415b694b1f878911" name="Turn" link="0" type="4"/>
+	</runtimes>
+</asset>

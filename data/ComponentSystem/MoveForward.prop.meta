@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>ba19a192726b0441d4374379e783edc3464254ee</guid>
+	<type>property</type>
+	<hash>92732c7e</hash>
+	<runtimes>
+		<runtime id="ba19a192726b0441d4374379e783edc3464254ee" name="MoveForward" link="0" type="4"/>
+	</runtimes>
+</asset>

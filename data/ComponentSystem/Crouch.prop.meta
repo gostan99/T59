@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>10720c73909715e6e3cad0c6f55eaf64e3e4168a</guid>
+	<type>property</type>
+	<hash>8cabaf42</hash>
+	<runtimes>
+		<runtime id="10720c73909715e6e3cad0c6f55eaf64e3e4168a" name="Crouch" link="0" type="4"/>
+	</runtimes>
+</asset>

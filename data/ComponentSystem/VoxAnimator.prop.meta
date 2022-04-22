@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>4abc9e59a18033d2f7c92df702aeea64566ad715</guid>
+	<type>property</type>
+	<hash>52569bdf</hash>
+	<runtimes>
+		<runtime id="4abc9e59a18033d2f7c92df702aeea64566ad715" name="VoxAnimator" link="0" type="4"/>
+	</runtimes>
+</asset>

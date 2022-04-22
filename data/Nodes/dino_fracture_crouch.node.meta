@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>694462da7b94d4718eabc31cf8a103cb62f206ae</guid>
+	<type>node</type>
+	<hash>e067b07a</hash>
+	<runtimes>
+		<runtime id="694462da7b94d4718eabc31cf8a103cb62f206ae" name="dino_fracture_crouch.node" link="0" type="3"/>
+	</runtimes>
+</asset>

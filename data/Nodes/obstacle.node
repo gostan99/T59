@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="ObjectMeshStatic" id="217731103" name="obstacle">
+		<mesh_name>guid://3883e1029ffa2c7961ac6b8464eb011319a69356</mesh_name>
+		<surface name="box" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+		<body type="BodyRigid" id="1070131168" frozen="0" immovable="1" gravity="0">
+			<angular_scale>0 0 0</angular_scale>
+			<shape type="ShapeBox" id="650613661" transform="1 5.08445505e-32 2.13257502e-25 0 -5.08445505e-32 1 0 0 0 0 1 0 0.0492553711 0.0977306366 -4.76837158e-07 1">
+				<size>1.53112793 1.58083725 1</size>
+			</shape>
+		</body>
+		<transform>0.99999976 -1.5294295e-26 8.1315163e-20 0.0 1.5294295e-26 0.99999976 0 0.0 -8.1315176e-20 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

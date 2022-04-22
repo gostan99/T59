@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>5661056bcef7dbcef7b730d592fe4c307663f1cf</guid>
+	<type>texture</type>
+	<hash>5c715b91</hash>
+	<runtimes>
+		<runtime id="5661056bcef7dbcef7b730d592fe4c307663f1cf" name="T-Rex.png" link="0" type="6"/>
+		<runtime id="af11b4e2d8792ed91671ca647a9e12733f0ab536" name="T-Rex.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">RGBA16</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

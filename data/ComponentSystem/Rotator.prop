@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.15.1.0" name="Rotator" manual="1" parent_name="node_base">
+	<parameter name="turn_speed" type="float">90</parameter>
+</property>

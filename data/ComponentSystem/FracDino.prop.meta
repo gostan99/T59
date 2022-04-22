@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>0b70d039b6a0157de9e9bde7f5f956d5cfd23742</guid>
+	<type>property</type>
+	<hash>a9ccf911</hash>
+	<runtimes>
+		<runtime id="0b70d039b6a0157de9e9bde7f5f956d5cfd23742" name="FracDino" link="0" type="4"/>
+	</runtimes>
+</asset>

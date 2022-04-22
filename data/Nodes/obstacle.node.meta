@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>1132d88d84112088f18bca47f40f82fa99d23611</guid>
+	<type>node</type>
+	<hash>db9ed399</hash>
+	<runtimes>
+		<runtime id="1132d88d84112088f18bca47f40f82fa99d23611" name="obstacle.node" link="0" type="3"/>
+	</runtimes>
+</asset>

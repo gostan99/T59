@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>74a0cfd9879af76406a35b7397656a36b42cdc1d</guid>
+	<type>texture</type>
+	<hash>9a87c3b5</hash>
+	<runtimes>
+		<runtime id="74a0cfd9879af76406a35b7397656a36b42cdc1d" name="Colorset Bitmap.png" link="0" type="6"/>
+		<runtime id="c13eaed8195fe45707c735ca41b52aa1eb57438c" name="Colorset Bitmap.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgb)</parameter>
+	</parameters>
+</asset>

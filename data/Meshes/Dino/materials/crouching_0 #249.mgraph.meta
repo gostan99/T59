@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>b7d084769652b15d2362031862fcab97b160d40a</guid>
+	<type>material_graph</type>
+	<hash>f2e6488c</hash>
+	<runtimes>
+		<runtime id="b7d084769652b15d2362031862fcab97b160d40a" name="crouching_0 #249.mgraph" link="0"/>
+		<runtime id="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4" name="crouching_0 #249" link="1" type="5"/>
+	</runtimes>
+</asset>

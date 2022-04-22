@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.15.1.0" name="PlayerProperties" manual="1" parent_name="node_base">
+	<parameter name="mesh" type="node">0</parameter>
+	<parameter name="moveForwardSpeed" type="float">10</parameter>
+	<parameter name="turnSpeed" type="float">9.43</parameter>
+	<parameter name="jumpForce" type="float">18</parameter>
+	<parameter name="gravity" type="vec3">0.000000 0.000000 -56.470001</parameter>
+</property>

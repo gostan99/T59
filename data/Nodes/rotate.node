@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="NodeDummy" id="735246078" enabled="0" name="rotate">
+		<properties>
+			<property enabled="0" parent="2ed85d4f66f935ff3944de90a5324451b7b88a8a" guid="8a35360ebc0a4615b8ede07052dff90f01819322"/>
+		</properties>
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+		<node type="PlayerDummy" id="1532426052" name="player_camera_1">
+			<znear>0.29802233</znear>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>1</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<data>
+				<unigine_editor>0 5.000000</unigine_editor>
+			</data>
+			<transform>0.70710701 0.70710665 -2.0861629e-07 0.0 -4.4703484e-07 7.4505812e-07 1.0000001 0.0 0.70710665 -0.70710701 8.493663e-07 0.0 3.1610038 -3.1610055 0.30299997 1.0</transform>
+		</node>
+	</node>
+</nodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>7b8653ef023b5771e70edbabb8d977ce27ee25e9</guid>
+	<type>property</type>
+	<hash>654fa82a</hash>
+	<runtimes>
+		<runtime id="7b8653ef023b5771e70edbabb8d977ce27ee25e9" name="PlayerProperties" link="0" type="4"/>
+	</runtimes>
+</asset>

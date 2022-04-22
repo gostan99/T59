@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.15.1.0" name="Spawner" manual="1" parent_name="node_base">
+	<parameter name="dino" type="node">0</parameter>
+	<parameter name="numObstaclePerSpawn" type="int">3</parameter>
+	<parameter name="spawnDistance" type="float">8</parameter>
+	<parameter name="spawnPoints" type="array" array_type="vec3"/>
+	<parameter name="maxDistance" type="float">150</parameter>
+	<parameter name="nodeRef" type="file"/>
+</property>

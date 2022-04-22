@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>96bd507e2e6c3dc5c0c79460090fbc3f59639c92</guid>
+	<type>node</type>
+	<hash>60ecf53a</hash>
+	<runtimes>
+		<runtime id="96bd507e2e6c3dc5c0c79460090fbc3f59639c92" name="rotate.node" link="0" type="3"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E6A2540-087A-464D-958A-CA8D7C4FB487}</ProjectGuid>
+    <ProjectName>EngineGuiWindowPlugin</ProjectName>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <OutDir>$(ProjectDir)../../bin/editor_debug/</OutDir>
+    <TargetName>$(ProjectName)_x64d</TargetName>
+    <LocalDebuggerEnvironment>PATH=$(ProjectDir)../../bin/x64;$(ProjectDir)../../bin/;%PATH%</LocalDebuggerEnvironment>
+    <LocalDebuggerCommand>$(ProjectDir)../../bin/Editor$(DOUBLE)_x64d.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>$(DEBUG_COMMAND)</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <OutDir>$(ProjectDir)../../bin/editor/</OutDir>
+    <TargetName>$(ProjectName)_x64</TargetName>
+    <LocalDebuggerEnvironment>PATH=$(ProjectDir)../../bin/x64;$(ProjectDir)../../bin/;%PATH%</LocalDebuggerEnvironment>
+    <LocalDebuggerCommand>$(ProjectDir)../../bin/Editor$(DOUBLE)_x64.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>$(DEBUG_COMMAND)</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include;$(UNIGINE_QTROOT)/include;$(UNIGINE_QTROOT)/include/QtCore;$(UNIGINE_QTROOT)/include/QtGui;$(UNIGINE_QTROOT)/include/QtWidgets;$(UNIGINE_QTROOT)/mkspecs/win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>DEBUG;QT_NO_DEBUG;$(EXTRA_DEFINES)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX64</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../lib;$(UNIGINE_QTROOT)/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Unigine$(DOUBLE)_x64d.lib;EditorCore$(DOUBLE)_x64d.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>../../include;$(UNIGINE_QTROOT)/include;$(UNIGINE_QTROOT)/include/QtCore;$(UNIGINE_QTROOT)/include/QtGui;$(UNIGINE_QTROOT)/include/QtWidgets;$(UNIGINE_QTROOT)/mkspecs/win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>NDEBUG;QT_NO_DEBUG;$(EXTRA_DEFINES)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX64</TargetMachine>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../lib;$(UNIGINE_QTROOT)/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Unigine$(DOUBLE)_x64.lib;EditorCore$(DOUBLE)_x64.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineGuiWindowPlugin.cpp" />
+    <ClCompile Include="moc_EngineGuiWindowPlugin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="EngineGuiWindowPlugin.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc'ing %(Identity) ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RootDir)%(Directory)moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(UNIGINE_QTROOT)\bin\moc.exe;</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(UNIGINE_QTROOT)\bin\moc.exe" -DARCH_X64 -DWIN32 -o "%(RootDir)%(Directory)moc_%(Filename).cpp" -I"$(ProjectDir)..\..\include" "%(FullPath)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(UNIGINE_QTROOT)\bin\moc.exe" -DARCH_X64 -DWIN32 -o "%(RootDir)%(Directory)moc_%(Filename).cpp" -I"$(ProjectDir)..\..\include" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc'ing %(Identity) ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(RootDir)%(Directory)moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(UNIGINE_QTROOT)\bin\moc.exe;</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EngineGuiWindowPlugin.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="../../utils/natvis/unigine_stl.natvis" />
+    <Natvis Include="../../utils/natvis/qt5_2.natvis" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Target Name="Qt5Exists" BeforeTargets="CustomBuild">
+    <Error Condition="!Exists('$(UNIGINE_QTROOT)\bin\moc.exe')" Text="The required Qt version is not found on your computer,&#xA;please follow this link to see the instructions on resolving this issue.&#xA;https://developer.unigine.com/en/docs/latest/editor2/extensions/environment" />
+  </Target>
+</Project>

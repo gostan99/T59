@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="NodeDummy" id="1601769561" name="dino">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1791456387" name="dino">
+			<mesh_name>guid://19bd33aef99fe73533d9cf10df8ed72f84039ac2</mesh_name>
+			<surface name="crouching_0 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_0 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_0 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_0 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_0 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_1 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_1 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_1 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_1 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_1 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_2 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_2 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_2 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_2 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_2 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_3 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_3 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_3 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_3 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_3 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_4 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_4 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_4 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_4 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_4 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_5 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_5 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_5 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_5 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_5 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_6 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_6 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_6 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_6 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_6 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="crouching_7 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="crouching_7 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="crouching_7 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="crouching_7 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="crouching_7 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="jump_0 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="jump_0 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="jump_0 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="jump_0 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="jump_0 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_0 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_0 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_0 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_0 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_0 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_1 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_1 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_1 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_1 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_1 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_2 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_2 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_2 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_2 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_2 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_3 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_3 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_3 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_3 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_3 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_4 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_4 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_4 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_4 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_4 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_5 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_5 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_5 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_5 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_5 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_6 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_6 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_6 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_6 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_6 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<surface name="run_7 #249" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+			<surface name="run_7 #241" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+			<surface name="run_7 #255" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+			<surface name="run_7 #250" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+			<surface name="run_7 #233" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

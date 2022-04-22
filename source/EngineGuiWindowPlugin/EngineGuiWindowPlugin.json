@@ -1,0 +1,8 @@
+{
+  "Name": "EngineGuiWindowPlugin",
+  "Vendor": "",
+  "Description": "<p>The plugin is used to demonstrate the usage of the EngineGuiWindow wdiget for render GUI of engine.</p>",
+  "Version": "1.0.0.0",
+  "CompatVersion": "1.0.0.0",
+  "Dependencies": []
+}

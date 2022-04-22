@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="NodeDummy" id="1192974411" name="dino">
+		<properties>
+			<property parent="7b8653ef023b5771e70edbabb8d977ce27ee25e9" guid="cd3ea9bb338113de389569a5f53a0ec04302331f">
+				<parameter name="mesh">1895658051</parameter>
+			</property>
+			<property parent="1eba140fdd9c6860a1730c408e3064aa417ca2a3" guid="81f0e5f245eb0ca9aceaedf4dc0040c3d54aef46">
+				<parameter name="target">1565257146</parameter>
+				<parameter name="mesh">1895658051</parameter>
+			</property>
+			<property parent="ba19a192726b0441d4374379e783edc3464254ee" guid="4a68fdeda5154668f8b8f6a7a66903dae7970171"/>
+			<property parent="368e8081b781aac177fd07c2415b694b1f878911" guid="4db60c1ce63cb8cb2af837aec1371b35a93f7310">
+				<parameter name="target">1565257146</parameter>
+			</property>
+			<property parent="10720c73909715e6e3cad0c6f55eaf64e3e4168a" guid="59102b2f6b0cdec28dc98f39bb4cef44c45031d3"/>
+			<property parent="6d9729e0152b67fda9d97d2be8cd9ba5a90eeb76" guid="05f68d168d50e17da89734b83115f0b7fa5416aa">
+				<parameter name="fracMesh">guid://433bb86273805c59437019e4dab51bf33b7f30b6</parameter>
+				<parameter name="fracMeshCrouch">guid://694462da7b94d4718eabc31cf8a103cb62f206ae</parameter>
+				<parameter name="camera">741986938</parameter>
+			</property>
+		</properties>
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1565257146" name="dino">
+			<transform>1 1.7484554e-07 0 0.0 -1.7484554e-07 1 0 0.0 0 0 1 0.0 0 0 1.3188403 1.0</transform>
+			<node type="ObjectMeshStatic" id="1895658051" trigger_interaction_enabled="1" name="dino">
+				<mesh_name>guid://19bd33aef99fe73533d9cf10df8ed72f84039ac2</mesh_name>
+				<surface name="crouching_0 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_0 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_0 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_0 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_0 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_1 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_1 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_1 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_1 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_1 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_2 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_2 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_2 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_2 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_2 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_3 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_3 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_3 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_3 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_3 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_4 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_4 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_4 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_4 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_4 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_5 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_5 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_5 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_5 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_5 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_6 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_6 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_6 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_6 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_6 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="crouching_7 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="crouching_7 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="crouching_7 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="crouching_7 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="crouching_7 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="jump_0 #249" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="jump_0 #241" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="jump_0 #255" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="jump_0 #250" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="jump_0 #233" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_0 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_0 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_0 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_0 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_0 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_1 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_1 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_1 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_1 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_1 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_2 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_2 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_2 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_2 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_2 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_3 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_3 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_3 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_3 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_3 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_4 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_4 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_4 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_4 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_4 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_5 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_5 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_5 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_5 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_5 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_6 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_6 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_6 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_6 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_6 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<surface name="run_7 #249" enabled="0" physics_friction="1" physics_restitution="1" material="cb53c5c0403a7e1f1eaeb4f213088fa9a49c94f4"/>
+				<surface name="run_7 #241" enabled="0" physics_friction="1" physics_restitution="1" material="8175879de1c46458bffb1bd7c146074aaa1ece21"/>
+				<surface name="run_7 #255" enabled="0" physics_friction="1" physics_restitution="1" material="1f6ff18e063acb95dc15a7f070e21a8fa67646a2"/>
+				<surface name="run_7 #250" enabled="0" physics_friction="1" physics_restitution="1" material="f579da63944d7c66c9e4e88d677bf0885cd85a47"/>
+				<surface name="run_7 #233" enabled="0" physics_friction="1" physics_restitution="1" material="bdb79e2c7a13839b0fff643e9865be851e7f9e20"/>
+				<body type="BodyRigid" id="1374148741" frozen="0" gravity="0">
+					<angular_scale>0 0 0</angular_scale>
+					<shape type="ShapeBox" id="428104198" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.0539822206 0.0780749023 -1.03495169 1">
+						<size>1.10000026 0.771349132 0.485682964</size>
+					</shape>
+					<shape type="ShapeBox" id="1350244290" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.053982228 -0.125969768 -0.137579322 1">
+						<size>1.10000026 1.63437104 0.589457631</size>
+					</shape>
+					<shape type="ShapeBox" id="334959100" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.0539822355 0.643156946 0.68413806 1">
+						<size>1.10000026 1.08460224 0.789255142</size>
+					</shape>
+					<shape type="ShapeBox" id="477043028" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.0539822131 1.45188594 -0.101103306 1">
+						<size>1.10000026 1.05528367 0.775278687</size>
+					</shape>
+				</body>
+				<properties>
+					<property parent="4abc9e59a18033d2f7c92df702aeea64566ad715" guid="aa55d601fc28376c7a1acbdb05678f7ec92b70c5"/>
+				</properties>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<node type="NodeDummy" id="492907344" name="FracSpawnPoint">
+					<transform>1.0000001 -1.7484558e-07 0 0.0 1.7484558e-07 1.0000001 0 0.0 0 0 1 0.0 0 0 -1.3188406 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="PlayerDummy" id="741986938" name="PlayerDummy">
+			<znear>0.300000012</znear>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>1</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<transform>0.99999988 0 0 0.0 0 0.46329567 0.88620287 0.0 0 -0.88620102 0.46329471 0.0 0 -3.4864552 4.5165806 1.0</transform>
+		</node>
+	</node>
+</nodes>

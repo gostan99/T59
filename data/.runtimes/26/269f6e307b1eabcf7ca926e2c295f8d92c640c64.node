@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="NodeDummy" id="29515529" name="desert_">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="213283770" name="desert.031">
+			<mesh_name>guid://90376c733bb047367508151d761693d8aa948557</mesh_name>
+			<surface name="desert" material="4475c2b7a5ddc0aad40f7801e321716c2bdebddb"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

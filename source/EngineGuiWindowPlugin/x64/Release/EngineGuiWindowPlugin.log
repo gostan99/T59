@@ -1,0 +1,6 @@
+﻿  EngineGuiWindowPlugin.cpp
+C:\Dev\Unigine Projects\T59\source\EngineGuiWindowPlugin\EngineGuiWindowPlugin.cpp(198,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\Unigine Projects\T59\source\EngineGuiWindowPlugin\EngineGuiWindowPlugin.cpp(301,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\Unigine Projects\T59\source\EngineGuiWindowPlugin\EngineGuiWindowPlugin.cpp(320,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:\Dev\Unigine Projects\T59\source\EngineGuiWindowPlugin\../../bin/editor/EngineGuiWindowPlugin_x64.lib and object C:\Dev\Unigine Projects\T59\source\EngineGuiWindowPlugin\../../bin/editor/EngineGuiWindowPlugin_x64.exp
+  EngineGuiWindowPlugin.vcxproj -> C:\Dev\Unigine Projects\T59\bin\editor\EngineGuiWindowPlugin_x64.dll

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>faf15d354000cd10d4bdbd2f1d0948c283d6f139</guid>
+	<type>material_graph</type>
+	<hash>56525383</hash>
+	<runtimes>
+		<runtime id="faf15d354000cd10d4bdbd2f1d0948c283d6f139" name="desert.mgraph" link="0"/>
+		<runtime id="4475c2b7a5ddc0aad40f7801e321716c2bdebddb" name="desert" link="1" type="5"/>
+	</runtimes>
+</asset>

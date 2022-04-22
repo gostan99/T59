@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>2ed85d4f66f935ff3944de90a5324451b7b88a8a</guid>
+	<type>property</type>
+	<hash>1527c4b4</hash>
+	<runtimes>
+		<runtime id="2ed85d4f66f935ff3944de90a5324451b7b88a8a" name="Rotator" link="0" type="4"/>
+	</runtimes>
+</asset>

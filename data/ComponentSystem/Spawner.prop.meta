@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>d617d3c67ada68f282baa235df4f012626a091a2</guid>
+	<type>property</type>
+	<hash>f8ff7fec</hash>
+	<runtimes>
+		<runtime id="d617d3c67ada68f282baa235df4f012626a091a2" name="Spawner" link="0" type="4"/>
+	</runtimes>
+</asset>

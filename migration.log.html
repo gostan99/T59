@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Migration log file</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body {
+			background: #1a242a;
+			color: #ececec;
+			margin: 20px;
+			font-size: 14px;
+			font-family: 'Courier New', Courier, monospace;
+			counter-reset: lognum;
+			tab-size: 4;
+		}
+		
+		.m, .w, .e {
+			padding: 3px;
+			white-space: pre-wrap;
+			line-height: 16px;
+		}
+		
+		.m:before, .w:before, .e:before {
+			counter-increment: lognum;
+			content: counter(lognum) ". ";
+		}
+		
+		.m {
+			color: #ececec;
+		}
+		
+		.w {
+			background-color: #FCF8E3;
+			color: #8A6D3B;
+		}
+		
+		.e {
+			background-color: #d64500;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+<div class="m">Start migration to version "2.15.1.0"</div>
+<div class="m"> Remove C:/Dev/Unigine Projects/T59/data/shader_d3d11.cache</div>
+<div class="m"> Remove C:/Dev/Unigine Projects/T59/data/shader_d3d11_debug.cache</div>
+<div class="m"> Remove C:/Dev/Unigine Projects/T59/data/shader_gl_debug.cache</div>
+<div class="m"> Remove C:/Dev/Unigine Projects/T59/data/shader_gl.cache</div>
+<div class="m"> Remove C:/Dev/Unigine Projects/T59/data/unigine.cache</div>
+<div class="m"> Remove C:/Dev/Unigine Projects/T59/data/editor.cache</div>
+<div class="m"> Remove directory C:/Dev/Unigine Projects/T59/data/.thumbnails</div>
+<div class="m"> Remove directory C:/Dev/Unigine Projects/T59/data/.cache_textures</div>
+<div class="m">update materials ...</div>
+<div class="m">update material graphs ...</div>
+<div class="m">migrate properties ...</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/T59.world.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/bake_lighting/shadows/0b0af9338142ecf69b44ffdd9976ff9867287e17.texture.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/bake_lighting/shadows/9b0351285ad80267266b1c9aa84ec33139fd62dc.texture.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/bake_lighting/shadows/ae73eaa0316d9d7fcd278cd22a0ec60998f797d4.texture.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/bake_lighting/shadows/b62be7228d133c19eecbf6a4b713d1b3e878eb76.texture.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/bake_lighting/shadows/f275326129ee284c3101473b30a4135ef8a96325.texture.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Crouch.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Destroy.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/DinoDestroy.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/FracDino.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Jump.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/MoveForward.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/PlayerProperties.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Reposition.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Rotator.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Spawner.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/Turn.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/ComponentSystem/VoxAnimator.prop.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.boot.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.config.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.controls.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.user.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/box.mesh.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Desert/desert.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Desert/materials/Colorset Bitmap.png.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Desert/materials/desert.mgraph.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Desert/materials/desert_0.mat.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Desert_1/desert_.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino/dino.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino/materials/crouching_0 #233.mgraph.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino/materials/crouching_0 #241.mgraph.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino/materials/crouching_0 #249.mgraph.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino/materials/crouching_0 #250.mgraph.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino/materials/crouching_0 #255.mgraph.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino Fracture/dino_fracture.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Dino Fracture/dino_fracture_crouch.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/New Folder/Nhu.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Meshes/Unoptimize Dino Frac/dino_fracture.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/dino.node.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/dino_fracture.node.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/dino_fracture_crouch.node.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/obstacle.node.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/rotate.node.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_material_ball/material_ball.fbx.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_material_ball/material_ball_a.png.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_material_ball/material_ball_alb.png.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_material_ball/material_ball_mat.mat.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_material_ball/material_ball_n.png.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_material_ball/material_ball_sh.png.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_extreme.render.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_high.render.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_low.render.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_medium.render.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_ultra.render.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_virtual_reality.render.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Textures/T-Rex.png.meta"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.boot"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.controls"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/configs/default.user"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/08/081222a741783fdab5450d714454a81cda72a4cb.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/26/269f6e307b1eabcf7ca926e2c295f8d92c640c64.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/2b/2bdf2610177e422f32ce09c2dcbabe396d465244.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/3b/3ba9e6d78108564a8976d121fb03b80c702013fb.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/59/5906bd5fef816b326e9950e9d735e53405924f03.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/76/7672ce3d2264ba7853903b77c112626af9ee2ec1.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/8a/8aa26450c675eb6f4a112202250c7979f3485484.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/.runtimes/a9/a9c4465cee6b2e0b8b4babee400582756c1e3150.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/dino.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/dino_fracture.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/dino_fracture_crouch.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/obstacle.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/Nodes/rotate.node"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/T59.world"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_extreme.render"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_high.render"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_low.render"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_medium.render"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_ultra.render"</div>
+<div class="m">upgrading "C:/Dev/Unigine Projects/T59/data/template_assets/template_render_settings/template_virtual_reality.render"</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>6d9729e0152b67fda9d97d2be8cd9ba5a90eeb76</guid>
+	<type>property</type>
+	<hash>31201c08</hash>
+	<runtimes>
+		<runtime id="6d9729e0152b67fda9d97d2be8cd9ba5a90eeb76" name="DinoDestroy" link="0" type="4"/>
+	</runtimes>
+</asset>

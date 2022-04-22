@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Natvis Include="../utils/natvis/unigine_stl.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppEditorLogic.cpp" />
+    <ClCompile Include="AppSystemLogic.cpp" />
+    <ClCompile Include="AppWorldLogic.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MoveForward.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Turn.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProperties.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotator.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxAnimator.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DinoDestroy.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Crouch.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FracDino.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Reposition.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppEditorLogic.h" />
+    <ClInclude Include="AppSystemLogic.h" />
+    <ClInclude Include="AppWorldLogic.h" />
+    <ClInclude Include="MoveForward.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Turn.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProperties.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotator.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxAnimator.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DinoDestroy.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Crouch.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FracDino.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Reposition.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{7fa146bd-9324-42bc-a01d-aa0f8aba77c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
