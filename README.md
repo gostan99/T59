@@ -1,1 +1,1 @@
-3D chrome running dinosour prototype made with Unigine C++
+3D Chrome Running Dinosour prototype made with Unigine C++
